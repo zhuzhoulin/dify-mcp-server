@@ -2,6 +2,8 @@
 
 ![Dify Logo](images/README/logo.png)
 
+[English](README.md) | [中文](README_zh.md)
+
 A TypeScript-based MCP (Model Context Protocol) server that connects the MCP Client to Dify applications. This server dynamically exposes Dify applications as tools that can be used directly within the MCP Client.
 
 ## Overview
@@ -62,7 +64,7 @@ npm run build
 To use with Windsurf IDE, add the server config to your MCP settings:
 
 ```json
-https://api.dify.ai{
+{
   "mcpServers": {
     "dify-mcp-server": {
       "command": "node",
