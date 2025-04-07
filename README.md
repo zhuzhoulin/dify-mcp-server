@@ -80,7 +80,7 @@ https://api.dify.ai/v1https://api.dify.ai/v1{
 ## Environment Variables
 
 - `AGENT_API_KEYS`: Comma-separated list of Dify API keys
-- `BASE_URL`: Base URL for Dify API (default: http://agent-x.myhexin.com)
+- `BASE_URL`: Base URL for Dify API
 - `TIMEOUT`: Request timeout in milliseconds (default: 60000)
 
 ## How to get Environment Variables
@@ -88,7 +88,6 @@ https://api.dify.ai/v1https://api.dify.ai/v1{
 API密钥(AGENT_API_KEYS)： 多个以,分割
 
 ![1744026439630](images/README/1744026439630.png)
-
 
 ![1744026494831](images/README/1744026494831.png)
 
