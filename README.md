@@ -1,10 +1,12 @@
 # Dify MCP Server
 
-A TypeScript-based MCP (Model Context Protocol) server that connects the Windsurf IDE to Dify applications. This server dynamically exposes Dify applications as tools that can be used directly within the Windsurf IDE.
+![Dify Logo](images/README/logo.png)
+
+A TypeScript-based MCP (Model Context Protocol) server that connects the MCP Client to Dify applications. This server dynamically exposes Dify applications as tools that can be used directly within the MCP Client.
 
 ## Overview
 
-This server implements the Model Context Protocol to bridge between Windsurf IDE and Dify applications. It dynamically fetches application specifications from Dify APIs and exposes them as MCP tools. The server allows users to interact with multiple Dify applications through a unified interface within the Windsurf IDE.
+This server implements the Model Context Protocol to bridge between MCP Client and Dify applications. It dynamically fetches application specifications from Dify APIs and exposes them as MCP tools. The server allows users to interact with multiple Dify applications through a unified interface within the MCP Client.
 
 ## Features
 
