@@ -16,7 +16,7 @@ export interface ErrorResponse {
 
 // 创建 axios 实例
 const requestClient = axios.create({
-    baseURL: process?.env?.BASE_URL,
+    baseURL: process?.env?.BASE_URL || 'https://api.dify.ai',
     timeout: process?.env?.TIMEOUT ? Number(process?.env?.TIMEOUT) : 60000, // 默认超时时间 60s
     withCredentials: true,
     transformResponse: function (data, header) {

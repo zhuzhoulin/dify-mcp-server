@@ -60,7 +60,7 @@ npm run build
 To use with Windsurf IDE, add the server config to your MCP settings:
 
 ```json
-https://api.dify.ai/v1https://api.dify.ai/v1{
+https://api.dify.ai{
   "mcpServers": {
     "dify-mcp-server": {
       "command": "node",
@@ -80,7 +80,7 @@ https://api.dify.ai/v1https://api.dify.ai/v1{
 ## Environment Variables
 
 - `AGENT_API_KEYS`: Comma-separated list of Dify API keys
-- `BASE_URL`: Base URL for Dify API
+- `BASE_URL`: Base URL for Dify API(default:https://api.dify.ai)
 - `TIMEOUT`: Request timeout in milliseconds (default: 60000)
 
 ## How to get Environment Variables
