@@ -1,6 +1,7 @@
 # Dify MCP Server
 
 A TypeScript-based MCP (Model Context Protocol) server that connects the Windsurf IDE to Dify applications. This server dynamically exposes Dify applications as tools that can be used directly within the Windsurf IDE.
+``
 
 ## Overview
 
@@ -80,7 +81,7 @@ To use with Windsurf IDE, add the server config to your MCP settings:
 ## Environment Variables
 
 - `AGENT_API_KEYS`: Comma-separated list of Dify API keys
-- `BASE_URL`: Base URL for Dify API (default: http://agent-x.myhexin.com)
+- `BASE_URL`: Base URL for Dify API ()
 - `TIMEOUT`: Request timeout in milliseconds (default: 60000)
 
 ## Usage
@@ -92,7 +93,7 @@ Once configured, the Dify MCP Server will:
 3. Generate MCP tool interfaces based on the Dify application configurations
 4. Make these tools available within the Windsurf IDE
 
-Each Dify application will be exposed as a separate tool with a name format of `agentx_app_info_{application_name}`.
+Each Dify application will be exposed as a separate tool with a name format of `dify_app_info_{application_name}`.
 
 ## Development
 
@@ -121,3 +122,5 @@ If you encounter issues:
 ## License
 
 This project is licensed under the terms specified in the LICENSE file.
+
+

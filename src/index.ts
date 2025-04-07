@@ -132,12 +132,12 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
         // }
       }
 
-      const toolName = `agentx_app_info_${infoData.name}`;
+      const toolName = `dify_app_info_${infoData.name}`;
       toolsMap.set(toolName, apiKey);
 
       // 组装 tool 描述
       tools.push({
-        name: `agentx_app_info_${infoData.name}`,
+        name: `dify_app_info_${infoData.name}`,
         description: `${infoData.description} (tags: ${infoData.tags?.join(', ')})`,
         inputSchema: inputSchema,
         metadata: {
