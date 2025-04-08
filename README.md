@@ -43,7 +43,7 @@ This server implements the Model Context Protocol to bridge between MCP Client a
 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/zhuzhoulin/dify-mcp-server.git
 cd dify-mcp-server
 ```
 

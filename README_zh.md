@@ -43,7 +43,7 @@
 1. 克隆仓库
 
 ```bash
-git clone <仓库URL>
+git clone https://github.com/zhuzhoulin/dify-mcp-server.git
 cd dify-mcp-server
 ```
 
